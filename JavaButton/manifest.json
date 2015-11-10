@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "ジャバボタン",
+  "short_name": "ジャバボタン",
+  "description": "ジャバ音発生ツール",
+  "version": "1",
+  "minimum_chrome_version": "46",
+  "permissions": ["storage"],
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
